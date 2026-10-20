@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="340" viewBox="0 0 1200 340" role="img" aria-labelledby="title description">
+  <title id="title">Bayfrosch</title>
+  <desc id="description">Max-Emil Lehm. Software engineering student and hobby game developer. Purple orbital artwork with gently moving rings and a blinking cursor.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#171125"/>
+      <stop offset="1" stop-color="#25143e"/>
+    </linearGradient>
+    <radialGradient id="glow">
+      <stop stop-color="#a66cff" stop-opacity=".24"/>
+      <stop offset="1" stop-color="#a66cff" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#c4a1ff"/>
+      <stop offset="1" stop-color="#8b5cf6"/>
+    </linearGradient>
+    <clipPath id="frame"><rect x="1" y="1" width="1198" height="338" rx="22"/></clipPath>
+  </defs>
+  <style>
+    .orbit { transform-origin: 980px 170px; animation: orbit 36s linear infinite; }
+    .reverse { animation-direction: reverse; animation-duration: 48s; }
+    .cursor { animation: blink 2.4s step-end infinite; }
+    @keyframes orbit { to { transform: rotate(360deg); } }
+    @keyframes blink { 0%, 65% { opacity: 1; } 66%, 100% { opacity: 0; } }
+    @media (prefers-reduced-motion: reduce) { .orbit, .cursor { animation: none; } }
+  </style>
+  <g clip-path="url(#frame)">
+    <rect width="1200" height="340" fill="url(#background)"/>
+    <circle cx="980" cy="170" r="290" fill="url(#glow)"/>
+    <path d="M760 0V340 M820 0V340 M880 0V340 M940 0V340 M1000 0V340 M1060 0V340 M1120 0V340 M1180 0V340 M730 50H1200 M730 110H1200 M730 170H1200 M730 230H1200 M730 290H1200" fill="none" stroke="#c4a1ff" stroke-opacity=".035"/>
+    <g fill="none" stroke="#b590f2">
+      <circle cx="980" cy="170" r="92" stroke-opacity=".2"/>
+      <circle cx="980" cy="170" r="136" stroke-opacity=".12"/>
+      <circle cx="980" cy="170" r="183" stroke-opacity=".08"/>
+    </g>
+    <g class="orbit">
+      <path d="M980 34A136 136 0 0 1 1116 170" fill="none" stroke="url(#accent)" stroke-width="2" stroke-linecap="round"/>
+      <circle cx="980" cy="34" r="5" fill="#dbc6ff"/>
+      <circle cx="980" cy="34" r="11" fill="#c4a1ff" fill-opacity=".12"/>
+    </g>
+    <g class="orbit reverse">
+      <circle cx="980" cy="353" r="4" fill="#aa80ec"/>
+      <circle cx="980" cy="353" r="9" fill="#aa80ec" fill-opacity=".12"/>
+    </g>
+    <rect x="932" y="122" width="96" height="96" rx="25" fill="#241836" stroke="#c4a1ff" stroke-opacity=".3" transform="rotate(-8 980 170)"/>
+    <path d="M966 153L949 170L966 187 M994 153L1011 170L994 187 M986 148L974 192" fill="none" stroke="#d9c3ff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    <g font-family="Segoe UI, Helvetica, Arial, sans-serif">
+      <rect x="56" y="58" width="26" height="3" rx="1.5" fill="#b88aff"/>
+      <text x="96" y="65" fill="#d0b9f0" font-size="15" font-weight="600" letter-spacing="2.5">MAX-EMIL LEHM</text>
+      <text x="52" y="165" fill="#faf7ff" font-size="82" font-weight="700" letter-spacing="-3">Bayfrosch</text>
+      <rect class="cursor" x="419" y="163" width="32" height="5" rx="1" fill="#b88aff"/>
+      <text x="56" y="216" fill="#e0d3f2" font-size="23">Software engineering student.</text>
+      <text x="56" y="249" fill="#b9a6d0" font-size="23">Game developer for fun.</text>
+      <text x="56" y="304" fill="#a38bbf" font-size="13" letter-spacing="2">ULM, GERMANY</text>
+    </g>
+  </g>
+  <rect x="1" y="1" width="1198" height="338" rx="22" fill="none" stroke="#8d60c3" stroke-opacity=".35"/>
+</svg>

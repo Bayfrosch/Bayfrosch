@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#a371f7" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+  <title>Languages</title>
+  <style>
+    .brackets { transform-origin: 12px 12px; animation: breathe 4.4s ease-in-out infinite; }
+    @keyframes breathe { 0%, 100% { transform: scaleX(.9); } 50% { transform: scaleX(1); } }
+    @media (prefers-reduced-motion: reduce) { .brackets { animation: none; } }
+  </style>
+  <g class="brackets"><path d="M8 6l-6 6 6 6M16 6l6 6-6 6"/></g>
+  <path d="M14 4l-4 16"/>
+</svg>

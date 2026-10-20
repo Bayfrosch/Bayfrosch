@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#a371f7" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+  <title>Toolkit</title>
+  <style>
+    .cursor { animation: blink 2.8s step-end infinite; }
+    @keyframes blink { 0%, 65% { opacity: 1; } 66%, 100% { opacity: .15; } }
+    @media (prefers-reduced-motion: reduce) { .cursor { animation: none; } }
+  </style>
+  <rect x="2.5" y="4" width="19" height="16" rx="3"/>
+  <path d="M6.5 9l3 3-3 3"/>
+  <path class="cursor" d="M13 15h4"/>
+</svg>

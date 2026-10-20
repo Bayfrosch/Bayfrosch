@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#a371f7" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+  <title>Sparkles</title>
+  <style>
+    .sparkle { transform-origin: 12px 12px; animation: twinkle 3.6s ease-in-out infinite; }
+    @keyframes twinkle { 0%, 100% { opacity: .65; transform: scale(.9); } 50% { opacity: 1; transform: scale(1); } }
+    @media (prefers-reduced-motion: reduce) { .sparkle { animation: none; } }
+  </style>
+  <g class="sparkle">
+    <path d="M12 5l2.2 6.8L21 14l-6.8 2.2L12 23l-2.2-6.8L3 14l6.8-2.2Z" transform="translate(0 -2) scale(1 .95)"/>
+    <path d="M4 2v4M2 4h4M20 2v4M18 4h4"/>
+  </g>
+</svg>
