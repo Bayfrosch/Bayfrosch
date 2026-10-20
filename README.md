@@ -1,5 +1,6 @@
 ![Bayfrosch. Software engineering student and hobby game developer.](./assets/profile-header.svg)
 
+
 # <img src="./assets/icons/sparkles.svg" width="28" height="28" alt="" /> Hi, I'm Max.
 
 I'm a **Software Engineering student** based in **Ulm, Germany**. I mainly work with **Java and C#**, and I build games in my spare time.
@@ -44,3 +45,7 @@ I'm a **Software Engineering student** based in **Ulm, Germany**. I mainly work 
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.17.0/icons/git/git-original.svg" alt="Git" title="Git" width="40" height="40" /> &nbsp;
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.17.0/icons/godot/godot-original.svg" alt="Godot" title="Godot" width="40" height="40" />
 </p>
+
+## <img src="./assets/icons/code.svg" width="24" height="24" alt="" /> GitHub stats
+
+![Top languages](https://github-stats-extended.vercel.app/api/top-langs/?username=Bayfrosch&layout=compact&langs_count=6&card_width=495&custom_title=Top%20languages&bg_color=171125&title_color=A371F7&text_color=E0D3F2&border_color=7850AA&border_radius=12)
