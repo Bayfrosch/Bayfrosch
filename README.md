@@ -18,13 +18,6 @@ I'm a **Software Engineering student** based in **Ulm, Germany**. I mainly work 
       <p><strong>Godot &nbsp;·&nbsp; C#</strong></p>
       <a href="https://github.com/Bayfrosch/Frontier-Command">Explore the project &rarr;</a>
     </td>
-    <td width="50%" valign="top">
-      <h3><a href="https://github.com/Bayfrosch/FoodPlaner">Vexa</a></h3>
-      <p><sub>WEB DEVELOPEMENT AND AI USAGE &nbsp;·&nbsp; VIBECODE PROJECT</sub></p>
-      <p>An app for planning meals and managing food, recipes, and lists. I'm using it to explore what AI can build and what it's like to develop with it.</p>
-      <p><strong>Typescript &nbsp;·&nbsp; React</strong></p>
-      <a href="https://github.com/Bayfrosch/FoodPlaner">Explore the project &rarr;</a>
-    </td>
   </tr>
 </table>
 
